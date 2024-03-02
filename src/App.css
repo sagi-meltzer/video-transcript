@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+}
+
+input[type="file"] {
+  border: 1px solid black;
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 4px;
+}

@@ -1,0 +1,50 @@
+00:00:02.639 hi guys today I'm gonna teach you how to
+00:00:05.339 deploy react app in two minutes
+00:00:08.280 so first of all this is a simple react
+00:00:10.860 app which is made in the node.js react
+00:00:13.380 mongodb
+00:00:14.820 I will share the code Link in the
+00:00:18.000 below section you can access from there
+00:00:19.939 so once your app development is complete
+00:00:23.100 the two step we have to do only
+00:00:25.800 first we'll make a build of this
+00:00:27.300 application now to make a build of the
+00:00:29.220 application
+00:00:30.300 just open your application folder and
+00:00:33.660 run very very simple command just write
+00:00:36.239 npm run build
+00:00:38.880 when you build it it will generate the
+00:00:41.460 build of this application
+00:00:43.920 in the meanwhile the build is getting
+00:00:45.719 generated just sign up over the website
+00:00:48.300 called netlify.com
+00:00:50.100 I will share the link of this website
+00:00:52.260 also in the description section
+00:00:55.379 now from here once the build is ready a
+00:00:58.800 very simple step to do on this
+00:01:00.660 particular website you will find one
+00:01:02.640 option drag and drop a website
+00:01:05.099 so we'll drag it our build folder to
+00:01:07.920 this location and application is ready
+00:01:10.380 to use
+00:01:16.439 so now my ability you can see here the
+00:01:19.920 build is there in my folder so if we
+00:01:22.619 access that folder you will see the
+00:01:24.720 build
+00:01:25.860 so this is the react build now I'll
+00:01:28.740 simply drag this build at this location
+00:01:31.979 and you are good to go
+00:01:33.840 so your application is ready to use
+00:01:36.780 after deployment complete and then we
+00:01:39.659 can use the URL so this is the
+00:01:41.340 production URL is open a URL an app is
+00:01:45.000 ready to use all the name is there you
+00:01:47.700 can change the name of the application
+00:01:48.960 go to site overview
+00:01:51.540 website configuration
+00:01:53.520 and then the multiple options are there
+00:01:55.740 chain site name change the name of site
+00:01:58.380 I'll set developer funnel
+00:02:02.280 I'll save it and then you are good to go
+00:02:07.079 your app is ready
+00:02:08.880 thank you

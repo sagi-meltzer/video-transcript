@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Frontend interview question
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Clone
 
-## Available Scripts
+First, clone the repo: *http://flsdjkhfdskjf.com*
 
-In the project directory, you can run:
+## Run
 
-### `npm start`
+This is a simple create-react-app application, install and run it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## New feature
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Now, we will implement a subtitles generation feature. As a Guidde user, I would like to have a place in the editor, where I can select a video from my file system, and watch it with generated subtitiles. 
 
-### `npm test`
+The flow:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. I chose a video from my file system with the existing file uploader.
+2. When I select a video,  I will be asked if I want to generate subtitiles or not.
+3. After pressing “Approve”, the video will be prossesed and I will be able to play it with/without subtitiles.
 
-### `npm run build`
+## Pre-made functionality
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can use our extention ability to generate subtitles, by sending him an event with the video source, example:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```tsx
+dispatchCustomEvent(GENERATE_SUBTITLES_TASK, {
+    detail: {
+      videoSrc
+    }
+});
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+After some unknown time, the extention will send back a message on custom event called “*CAPTIONS_GENERATION_COMPLETED*”. The subtitles will be available in the “*detail.reponse*” of that event message.
