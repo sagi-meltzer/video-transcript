@@ -10,7 +10,8 @@ This is a simple create-react-app application, install and run it.
 
 ## New feature
 
-Now, we will implement a subtitles generation feature. As a Guidde user, I would like to have a place in the editor, where I can select a video from my file system, and watch it with generated subtitiles. 
+Now, we will implement a subtitles generation feature. 
+As a Guidde user, I would like to have a place in the editor, where I can select a video from my file system, and watch it with generated subtitiles. 
 
 The flow:
 
