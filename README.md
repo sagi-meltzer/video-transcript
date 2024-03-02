@@ -2,7 +2,7 @@
 
 ## Clone
 
-First, clone the repo: *http://flsdjkhfdskjf.com*
+First, clone the repo
 
 ## Run
 
