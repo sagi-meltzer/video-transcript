@@ -32,3 +32,5 @@ dispatchCustomEvent(GENERATE_SUBTITLES_TASK, {
 ```
 
 After some unknown time, the extention will send back a message on custom event called “*CAPTIONS_GENERATION_COMPLETED*”. The subtitles will be available in the “*detail.reponse*” of that event message.
+
+*Use the file "Deploy React App in 2 min for free.mp4" located in "./src/files"
