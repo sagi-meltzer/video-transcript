@@ -6,11 +6,9 @@ First, clone the repo. This is a simple create-react-app application, install an
 
 ## New feature
 
-As you can see, the project has pre-implemented code, a button which let you choose a video from your file system. There is also a video in the repo named *“Deploy_React_App_in_2_min_for_free.mp4”*  located in *“./src/files”.* 
+As you can see, the project has pre-implemented code, a button which let you choose a video from your file system. There is also a video in the repo named *“Deploy_React_App_in_2_min_for_free.mp4”*  located in *“./src/files”.*, use it for development 
 
-Now, ee will use this video for testing our development. The mission: 
-
-Implement a subtitles generation feature. The flow will be:
+The mission - Implement a subtitles generation feature. The flow will be:
 
 1. A user choose a video from the file system (already implemented).
 2. After choosing a video, the video will be prossesed and subtitles will be generated for it.
