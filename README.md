@@ -1,12 +1,8 @@
 # Frontend interview question
 
-## Clone
+## Clone and Run
 
-First, clone the repo.
-
-## Run
-
-This is a simple create-react-app application, install and run it.
+First, clone the repo. This is a simple create-react-app application, install and run it.
 
 ## New feature
 
