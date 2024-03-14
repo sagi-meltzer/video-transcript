@@ -18,7 +18,7 @@ The mission - Implement a subtitles generation feature. The flow will be:
 
 ## Pre-implemented code
 
-1. You should use our extention ability to generate subtitles, the extention can except event messages with the pre-made function *dispatchCustomEvent* with the event name *GENERATE_SUBTITLES_TASK* and the *videoSrc* in the data.
+1. You should use our extention ability to generate subtitles, the extention can accept event messages with the pre-made function *dispatchCustomEvent* with the event name *GENERATE_SUBTITLES_TASK* and the *videoSrc* in the data.
 
 Example usage:
 
