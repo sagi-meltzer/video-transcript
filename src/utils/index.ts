@@ -1,4 +1,4 @@
-import { ParagraphType } from "../types";
+import { ParagraphType, SpeakerType, WordType } from "../types";
 
 export const buildParagraphsObject = (transcript: any) => {
     const paragraphs: ParagraphType[] = [];
@@ -8,10 +8,10 @@ export const buildParagraphsObject = (transcript: any) => {
   
     for (let i = 0; i < paragraphArr.length; i++) {
       const paragraph = paragraphArr[i];
-      const speaker = speakers.find((s: { id: string; }) => s.id === paragraph.speaker_id);
+      const speaker = speakers.find((s: SpeakerType) => s.id === paragraph.speaker_id);
       const wordArr = words
         .filter((w: { paragraph_id: string; }) => w.paragraph_id === paragraph.id)
-        .map((w: { text: string; time: number; duration: number; }) => ({ text: w.text, time: w.time, duration: w.duration }));
+        .map((w: WordType) => ({ text: w.text, time: w.time, duration: w.duration }));
   
       if (speaker) {
         paragraphs.push({
