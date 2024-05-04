@@ -1,50 +1,74 @@
 .App {
   text-align: center;
+  padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+select, button {
+  margin: 20px;
+}
+.video {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  height: 80vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+video {
+  max-width: 800px;
+  margin:auto;
+  height: 60vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.word {
+  margin: 5px;
+  white-space: nowrap;
+  overflow-wrap: nowrap;
 }
 
-.App-link {
-  color: #61dafb;
+.paragraph {
+  width: fit-content;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.speaker {
+  font-weight: bolder;
+  white-space: nowrap;
+  overflow-wrap: nowrap;
 }
 
-h1 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 60px;
-}
-
-input[type="file"] {
+.transcript {
   border: 1px solid black;
-  padding: 40px;
-  margin-top: 50px;
-  border-radius: 4px;
+  height: 20vh;
+  overflow: auto;
+  margin: 50px 200px;
+}
+
+.currentWord {
+  font-weight: bolder;
+}
+
+.currentParagraph {
+  background-color: yellow;
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    padding: 0
+  }
+  .video {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+  }
+  video {
+    height: 40vh;
+  }
+  .transcript {
+    font-size: small;
+    width: 100%;
+    margin: 20px auto;
+    height: 15vh;
+    overflow-wrap: anywhere;
+  }  
 }
