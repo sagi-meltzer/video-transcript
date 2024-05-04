@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { ParagraphType } from "../../types";
-import { buildParagraphsObject } from "../../utils";
+import { ParagraphType } from "../types";
+import { buildParagraphsObject } from "../utils";
 
 function VideoTranscript({ transcriptId }: { transcriptId: number }) {
   const [videoSrc, setVideoSrc] = useState<string>();

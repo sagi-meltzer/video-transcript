@@ -41,7 +41,7 @@ and a child VideoTranscript component that receives the transcriptId as property
 ## VideoTranscript component 
 this is the main component, which display the video and transcript 
 the component fetches the relevant transcript object and renders the video player (has user controls to control track speed),
-and the transcript box, 
+and the transcript box,         
 to keep track of time the "onTimeUpdate" is subscribed and keeeps track of the current word and paragraph, 
 which have refs taken and changed (for autoscrolling, changing class list of current paragraph and word)
 

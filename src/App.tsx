@@ -1,5 +1,5 @@
 import './App.css';
-import VideoUploader from './components/video-uploader/VideoTranscript';
+import VideoUploader from './components/VideoTranscript';
 import { useEffect, useState } from 'react';
 import { TranscriptType } from './types';
 
